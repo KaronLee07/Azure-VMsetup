@@ -1,57 +1,46 @@
 <p align="center">
-<img src="https://i.imgur.com/Ua7udoS.png" alt="Traffic Examination"/>
+<img src=https://th.bing.com/th/id/OIP.YC8c7aXz4AQXqWDduMy1IgHaG2?w=218&h=180&c=7&r=0&o=5&pid=1.7"" alt="Traffic Examination"/>
 </p>
 
-<h1>Network Security Groups (NSGs) and Inspecting Traffic Between Azure Virtual Machines</h1>
-In this tutorial, we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
+<h1>How to create a Virtual Machine using Azure</h1>
+In this tutorial, I will show you how to setup and run a Virtual Machine <br />
 
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: Azure Virtual Machines, Wireshark, and Network Security Groups](https://www.youtube.com/watch?v=Mu_2UnOdVHM)
-
-<h2>Environments and Technologies Used</h2>
-
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Various Command-Line Tools
-- Various Network Protocols (SSH, RDH, DNS, HTTP/S, ICMP)
-- Wireshark (Protocol Analyzer)
 
 <h2>Operating Systems Used </h2>
 
 - Windows 10 (21H2)
-- Ubuntu Server 20.04
 
-<h2>High-Level Steps</h2>
-
-- Step 1
-- Step 2
-- Step 3
-- Step 4
 
 <h2>Actions and Observations</h2>
 
 <p>
-<img src="https://i.imgur.com/uxdhWMb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/SxKPH4O.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 1: The first step is all about getting introduced, so create your Azure account and get logged in then observe the Azure portal and all of it's properties.
+Step 1: Within the Azure portal, observe the homescreen and identify "Virtual Machines" icon. Click on that and it will take you to the screen to create your machine.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/veMyVgm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/a1hdy5I.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 2: Within the Azure Portal, create a Resource Group. Then create a Storage Account within the Resource Group we created. After that you'll want to open a text file on your local desktop.
+Step 2: Now on the VM directory click create, then "Azure Virtual Machines".
+<br />
+
+<p>
+<img src="https://i.imgur.com/xhit5z4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Step 3: Choose the subcription that you wish to use. If you haven't already created a resource group then do so now. Name your Virtual Machine then choose the region and availability zone.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/PG47imc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/3H6xjR6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 3: Upload the text file you created to the Azure Storage Account. Once you've doen that, edit the file within the Storage Account (within the Azure Portal). Download the file Open the file and observe the changes.
+Step 4: Choose your username then passowrd(you'll want to write this down) then press create..after some time your VM will be running.
 </p>
 <br />
+
